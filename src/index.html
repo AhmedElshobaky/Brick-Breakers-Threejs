@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta httt-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrickBreakers</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+        #game{
+            background-color: #ffffff;
+            height: 100vh;
+            width: 100vw;
+            position: relative;
+        }
+        #score{
+            position: absolute;
+            top: 6%;
+            left: 6%;
+            background-color: #00000000;
+            color: #ffffff;
+            text-align: left;
+            height: fit-content;
+            font-size: 20px;
+        }
+        button{
+            position: absolute;
+            top: 48%;
+            left: 48%;
+            background-color: #ffffff;
+            color: #000000;
+            border: 2px solid #949494;
+            font-size: 20px;
+            border-radius: 10px;
+            padding: 10 20 10 20;
+            cursor: pointer;
+
+        }
+        #gameOver{
+            position: absolute;
+            top: 43%;
+            left: 45%;
+            color: #000000;
+            font-size: 30px;
+            padding: 10 20 10 20;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id= score >
+        <p> score: </p>
+    </div>
+    <div id= gameOver >
+        <p> Game Over!</p>
+    </div>
+    <div">
+        <script src="./js/scripts.js" type= "module"></script> 
+    </div>
+    <button id="start">Start</button>
+    
+</body>
+</html>
